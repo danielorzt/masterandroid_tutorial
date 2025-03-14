@@ -19,37 +19,33 @@ fun main() {
 
     //String
     val stringExample: String = "Holiwi ontoni"
-    var stringConcatenado:String = "Hola"
-    stringConcatenado = "Hola me llamo $stringExample y tengo $age de edad"
+    var stringConcatenado: String = "Hola"
+    stringConcatenado = "Hola me llamo $stringExample y tengo  de edad"
     println(stringConcatenado)
-    val example123:String = age.toString()
 
 
     /**
      * Variables booleanas
      */
 
-    val booleanExample:Boolean = true
-    val booleanExample2:Boolean = false
+    val booleanExample: Boolean = true
+    val booleanExample2: Boolean = false
 
     /**
      * Variables booleanas
      */
-
-
 
 
 }
 
 
-fun variablesNumericas(){
+fun variablesNumericas() {
     // val name = "Danielorzt
     // 2,147,483,647 +-
     val age: Int = 30
     var age2: Int = 30
 
     age2 = 29
-
 
 
     //Long
@@ -78,6 +74,6 @@ fun variablesNumericas(){
 //    println("Modulo:")
 //    println(age%age2)
 
-    var exampleSuma = age +floatExample.toInt()
+    var exampleSuma = age + floatExample.toInt()
 
 }
